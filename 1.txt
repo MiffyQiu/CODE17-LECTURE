@@ -1,6 +1,6 @@
 git init
 git status 查看file的状态
-git log 查看repositry的储存内容
+git log --oneline --pretty
 git add .
 git commit -m 'add something'
 git diff 查看库存区和工作区的差异
