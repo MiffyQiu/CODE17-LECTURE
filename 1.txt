@@ -4,3 +4,4 @@ git log --oneline --pretty
 git add .
 git commit -m 'add something'
 git diff 查看库存区和工作区的差异
+git checkout -- 1.txt (撤销1.txt)
