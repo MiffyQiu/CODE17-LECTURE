@@ -5,3 +5,7 @@ git add .
 git commit -m 'add something'
 git diff 查看库存区和工作区的差异
 git checkout -- 1.txt (撤销1.txt)
+git reset HEAD 2.txt (reset staging)
+git reset --gard HEAD~1
+git reset --hard HEAD^
+git reset --hard commitID
